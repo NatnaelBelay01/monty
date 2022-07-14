@@ -17,6 +17,10 @@ int op_sel(stack_t **stack, size_t num, char *op)
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
+		{"sub", sub},
+		{"div", divd},
+		{"mul", mul},
+		{"mod", mod},
 		{NULL, NULL}
 	};
 

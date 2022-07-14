@@ -41,4 +41,8 @@ int op_sel(stack_t **stack, size_t num, char *op);
 void sfree(stack_t **stack);
 void add(stack_t **stack, size_t num);
 void nop(stack_t **stack, size_t num);
+void sub(stack_t **stack, size_t num);
+void divd(stack_t **stack, size_t num);
+void mul(stack_t **stack, size_t num);
+void mod(stack_t **stack, size_t num);
 #endif
